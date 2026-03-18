@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #1d2b46;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #1d2b46;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_66" data-name="Ellipse 66" class="cls-1" cx="20" cy="20" r="20" transform="translate(75 40)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_131" data-name="Mask Group 131" class="cls-2" transform="translate(-75 -40)">
+    <g id="Layer_1" transform="translate(73.83 38.351)">
+      <g id="Group_946" data-name="Group 946">
+        <circle id="Ellipse_65" data-name="Ellipse 65" class="cls-3" cx="20" cy="20" r="20" transform="translate(1.17 1.649)"/>
+      </g>
+      <g id="Group_947" data-name="Group 947">
+        <path id="Path_447" data-name="Path 447" class="cls-4" d="M21.17,24.043a8.457,8.457,0,1,0-8.457-8.457A8.445,8.445,0,0,0,21.17,24.043Z"/>
+        <path id="Path_448" data-name="Path 448" class="cls-4" d="M29.362,22.926a.57.57,0,0,0-.745.053,10.4,10.4,0,0,1-14.894,0,.57.57,0,0,0-.745-.053,12.545,12.545,0,0,0-4.362,9.468V32.5a.572.572,0,0,0,.532.532H33.138a.572.572,0,0,0,.532-.532v-.106A12.315,12.315,0,0,0,29.362,22.926Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

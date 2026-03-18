@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="124" height="124" viewBox="0 0 124 124">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path id="prefix__Rectangle_128" d="M0 0H124V124H0z" data-name="Rectangle 128" transform="translate(58 37)" style="fill:#fff;stroke:#707070"/>
+        </clipPath>
+        <style>
+            .prefix__cls-3{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:5.84px}
+        </style>
+    </defs>
+    <g id="prefix__Mask_Group_56" data-name="Mask Group 56" transform="translate(-58 -37)">
+        <g id="prefix__Layer_1" transform="translate(39.523 23.089)">
+            <g id="prefix__Group_167" data-name="Group 167">
+                <path id="prefix__Path_158" d="M122.056 57.621V36.987c0-9.928-6.813-17.715-15.379-17.715H56.453v42.242H22.581v54.7c0 9.928 6.813 17.715 15.379 17.715h37.181" class="prefix__cls-3" data-name="Path 158"/>
+                <path id="prefix__Line_116" d="M0 42.243L33.872 0" class="prefix__cls-3" data-name="Line 116" transform="translate(22.581 19.077)"/>
+                <path id="prefix__Rectangle_131" d="M0 0H11.096V12.848H0z" class="prefix__cls-3" data-name="Rectangle 131" transform="translate(39.517 102.589)"/>
+                <path id="prefix__Rectangle_132" d="M0 0H11.096V12.848H0z" class="prefix__cls-3" data-name="Rectangle 132" transform="translate(39.517 77.282)"/>
+                <path id="prefix__Line_117" d="M0 0L13.237 0" class="prefix__cls-3" data-name="Line 117" transform="translate(62.098 83.706)"/>
+                <path id="prefix__Line_118" d="M0 0L13.237 0" class="prefix__cls-3" data-name="Line 118" transform="translate(62.098 107.066)"/>
+            </g>
+            <g id="prefix__Group_168" data-name="Group 168">
+                <path id="prefix__Path_159" d="M127.9 108.818l10.9 18.1c1.752 2.725 0 6.424-3.115 6.424H86.237c-2.92 0-4.672-3.7-2.92-6.424l10.9-18.1" class="prefix__cls-3" data-name="Path 159"/>
+                <circle id="prefix__Ellipse_36" cx="20.44" cy="20.44" r="20.44" class="prefix__cls-3" data-name="Ellipse 36" transform="translate(90.714 66.381)"/>
+                <path id="prefix__Path_160" d="M95.97 111.349l15.184 15.184 14.989-15.184" class="prefix__cls-3" data-name="Path 160"/>
+            </g>
+        </g>
+    </g>
+</svg>

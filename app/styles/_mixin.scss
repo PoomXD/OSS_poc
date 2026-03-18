@@ -1,0 +1,90 @@
+$default-gap: 20px;
+$VW_MIN: 400;
+$VW_MAX: 1440;
+
+// กำหนด breakpoints แบบสากล
+$breakpoints: (
+  "mobile":  1023px,
+  "tablet":  1024px,
+  "large":   1440px
+);
+
+@mixin box-shadow() {
+  box-shadow: rgba(black, 0.2) 0px 2px 8px 0px;
+}
+
+@mixin center() {
+  top: 50%;
+  left: 50%;
+  position: fixed;
+  transition: all 0.75s;
+  transform: translate(-50%, -50%);
+}
+
+@mixin bottom-right($gap: $default-gap) {
+  position: fixed;
+  transition: all 0.75s;
+  top: calc(100% - $gap);
+  left: calc(100% - $gap);
+  transform: translate(-100%, -100%);
+}
+
+@mixin top-left($gap: $default-gap) {
+  top: $gap;
+  left: $gap;
+  position: fixed;
+  transition: all 0.75s;
+  transform: translate(0, 0);
+}
+
+@mixin bottom-middle($gap: $default-gap) {
+  left: 50%;
+  position: fixed;
+  transition: all 0.75s;
+  top: calc(100% - $gap);
+  transform: translate(-50%, -100%);
+}
+
+@mixin hover() {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+@mixin ellipsis-text($max-width) {
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: $max-width;
+  text-overflow: ellipsis;
+}
+
+@mixin wide-desktop() {
+  @media only screen and (min-width: "1440px") {
+    @content;
+  }
+}
+
+@mixin desktop() {
+  @media only screen and (min-width: "1024px") {
+    @content;
+  }
+}
+
+@mixin tablet() {
+  @media only screen and (max-width: "1024px") {
+    @content;
+  }
+}
+
+@mixin mobile() {
+  $breakpoint: map-get($breakpoints, 'mobile');
+  @media only screen and (max-width: $breakpoint) {
+    @content;
+  }
+}
+
+@function fluid($min, $max, $vw-min: $VW_MIN, $vw-max: $VW_MAX) {
+  $slope: ($max - $min) / ($vw-max - $vw-min) * 100; // px ต่อ 1vw
+  $intercept: $min - ($slope * $vw-min / 100);
+  @return clamp(#{$min}px, calc(#{$intercept}px + #{$slope}vw), #{$max}px);
+}

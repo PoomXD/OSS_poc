@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Rectangle_679" fill="#fff" stroke="#707070" d="M0 0H32V32H0z" transform="translate(70 12)"/>
+        </clipPath>
+        <style>
+            .cls-3{fill:#231f20}.cls-4{fill:none;stroke:#231f20;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.63px}
+        </style>
+    </defs>
+    <g id="Mask_Group_151" clip-path="url(#clip-path)" transform="translate(-70 -12)">
+        <g id="icon-36" transform="translate(66.105 6.514)">
+            <rect id="Rectangle_680" width="14.051" height="5.008" class="cls-3" rx="1" transform="translate(12.646 31.912)"/>
+            <path id="Line_496" d="M0 25.044L0 0" class="cls-4" transform="translate(19.671 6.868)"/>
+            <path id="Path_510" d="M34.385 18.193l-3.473-6.952-3.485 6.952a8.627 8.627 0 0 0-.7 2.552 4.176 4.176 0 1 0 8.346 0 8.683 8.683 0 0 0-.691-2.552z" class="cls-4"/>
+            <path id="Path_511" d="M9.009 11.241H30.8" class="cls-4"/>
+            <path id="Path_512" d="M5.424 18.193L8.9 11.241l3.462 6.952a8.627 8.627 0 0 1 .7 2.552 4.176 4.176 0 1 1-8.352 0 8.627 8.627 0 0 1 .714-2.552z" class="cls-4"/>
+            <path id="Path_513" d="M9.4 20.576H4.738v.169a4.176 4.176 0 0 0 8.352 0v-.169z" class="cls-3"/>
+            <path id="Path_514" d="M31.4 20.576h-4.659v.169a4.176 4.176 0 1 0 8.346 0v-.169z" class="cls-3"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="124" height="124" viewBox="0 0 124 124">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path id="prefix__Rectangle_128" d="M0 0H124V124H0z" data-name="Rectangle 128" transform="translate(58 37)" style="fill:#fff;stroke:#707070"/>
+        </clipPath>
+        <style>
+            .prefix__cls-3{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:5.99px}
+        </style>
+    </defs>
+    <g id="prefix__Mask_Group_63" data-name="Mask Group 63" transform="translate(-58 -37)">
+        <g id="prefix__Layer_1" transform="translate(37.134 16.633)">
+            <circle id="prefix__Ellipse_40" cx="27.556" cy="27.556" r="27.556" class="prefix__cls-3" data-name="Ellipse 40" transform="translate(55.311 54.911)"/>
+            <path id="prefix__Path_182" d="M34.944 93.05a47.825 47.825 0 0 0 6.989 16.374l-3.195 3.195a6.39 6.39 0 0 0 0 9.185l5.391 5.391a6.39 6.39 0 0 0 9.185 0l3.395-3.395h-.2a48.687 48.687 0 0 0 16.374 6.589h.2v4.593a6.434 6.434 0 0 0 6.39 6.39h7.587a6.434 6.434 0 0 0 6.39-6.39v-4.792h-.2a47.824 47.824 0 0 0 16.374-6.989h.2l3.195 3.195a6.39 6.39 0 0 0 9.185 0l5.39-5.396a6.39 6.39 0 0 0 0-9.185l-3.395-3.395H124a48.687 48.687 0 0 0 6.589-16.374h4.792a6.434 6.434 0 0 0 6.39-6.39v-7.582a6.434 6.434 0 0 0-6.39-6.39h-4.991a47.825 47.825 0 0 0-6.99-16.373h.2l3.195-3.195a6.39 6.39 0 0 0 0-9.185l-4.995-5.392a6.39 6.39 0 0 0-9.185 0l-3.395 3.395h-.2a48.687 48.687 0 0 0-16.374-6.589h.2v-4.593a6.434 6.434 0 0 0-6.39-6.39h-7.583a6.434 6.434 0 0 0-6.39 6.39v4.792h-.2a47.825 47.825 0 0 0-16.373 6.989l-3.195-3.195a6.39 6.39 0 0 0-9.185 0l-5.391 5.391a6.39 6.39 0 0 0 0 9.185l3.395 3.395h-.2a48.687 48.687 0 0 0-6.589 16.374h-4.394a6.434 6.434 0 0 0-6.39 6.39v7.587a6.434 6.434 0 0 0 6.39 6.39h4.593z" class="prefix__cls-3" data-name="Path 182"/>
+        </g>
+    </g>
+</svg>

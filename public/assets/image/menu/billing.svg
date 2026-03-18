@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="124" height="124" viewBox="0 0 124 124">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path id="prefix__Rectangle_128" d="M0 0H124V124H0z" data-name="Rectangle 128" transform="translate(58 37)" style="fill:#fff;stroke:#707070"/>
+        </clipPath>
+        <style>
+            .prefix__cls-3{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:5.914px}
+        </style>
+    </defs>
+    <g id="prefix__Mask_Group_58" data-name="Mask Group 58" transform="translate(-58 -37)">
+        <g id="prefix__Layer_1" transform="translate(41.44 20.44)">
+            <g id="prefix__Group_178" data-name="Group 178">
+                <path id="prefix__Path_162" d="M110.989 137.6H46.13a18.72 18.72 0 0 1-18.73-18.726V38.245a18.72 18.72 0 0 1 18.73-18.728h64.859a18.72 18.72 0 0 1 18.728 18.728v80.63a18.6 18.6 0 0 1-18.728 18.725z" class="prefix__cls-3" data-name="Path 162"/>
+                <path id="prefix__Path_163" d="M109.412 66.83h-61.7a9.173 9.173 0 0 1-9.068-9.068V39.231a9.173 9.173 0 0 1 9.068-9.068h61.7a9.173 9.173 0 0 1 9.068 9.068v18.531a9.044 9.044 0 0 1-9.068 9.068z" class="prefix__cls-3" data-name="Path 163"/>
+                <g id="prefix__Group_173" data-name="Group 173">
+                    <path id="prefix__Line_124" d="M0 0L16.165 0" class="prefix__cls-3" data-name="Line 124" transform="translate(98.569 87.135)"/>
+                    <path id="prefix__Line_125" d="M0 18.531L0 0" class="prefix__cls-3" data-name="Line 125" transform="translate(106.652 78.461)"/>
+                </g>
+                <g id="prefix__Group_174" data-name="Group 174">
+                    <path id="prefix__Line_126" d="M0 0L15.968 0" class="prefix__cls-3" data-name="Line 126" transform="translate(66.83 87.135)"/>
+                </g>
+                <g id="prefix__Group_175" data-name="Group 175">
+                    <path id="prefix__Line_127" d="M0 0L16.165 0" class="prefix__cls-3" data-name="Line 127" transform="translate(68.604 113.946)"/>
+                </g>
+                <g id="prefix__Group_176" data-name="Group 176">
+                    <path id="prefix__Line_128" d="M0 0L16.165 0" class="prefix__cls-3" data-name="Line 128" transform="translate(96.598 108.82)"/>
+                </g>
+                <g id="prefix__Group_177" data-name="Group 177">
+                    <path id="prefix__Line_129" d="M0 0L16.165 0" class="prefix__cls-3" data-name="Line 129" transform="translate(96.401 117.297)"/>
+                </g>
+                <ellipse id="prefix__Ellipse_37" cx=".789" cy=".986" class="prefix__cls-3" data-name="Ellipse 37" rx=".789" ry=".986" transform="translate(75.898 103.498)"/>
+                <ellipse id="prefix__Ellipse_38" cx=".789" cy=".986" class="prefix__cls-3" data-name="Ellipse 38" rx=".789" ry=".986" transform="translate(75.898 122.423)"/>
+            </g>
+        </g>
+    </g>
+</svg>

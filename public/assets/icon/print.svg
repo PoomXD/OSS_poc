@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Rectangle_681" fill="#fff" stroke="#707070" d="M0 0H40V40H0z" transform="translate(258 262)"/>
+        </clipPath>
+        <style>
+            .cls-3,.cls-5{fill:none;stroke:#1d2b46;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10}.cls-3{stroke-width:1.317px}.cls-5{stroke-width:.658px}
+        </style>
+    </defs>
+    <g id="Mask_Group_152" clip-path="url(#clip-path)" transform="translate(-258 -262)">
+        <g id="Layer_1" transform="translate(260.859 264.857)">
+            <g id="Group_1246" transform="translate(4.424 22.064)">
+                <path id="Line_502" d="M0 0L17.47 0" class="cls-3" transform="translate(3.63 4.311)"/>
+                <path id="Line_503" d="M0 0L11.23 0" class="cls-3" transform="translate(9.869 7.771)"/>
+                <g id="Group_1245">
+                    <path id="Path_515" d="M8.119 21.5v7.941c0 2.439 1.758 4.481 3.857 4.481h17.186c2.155 0 3.857-1.985 3.857-4.481V21.5z" class="cls-3" transform="translate(-8.119 -21.505)"/>
+                </g>
+            </g>
+            <g id="Group_1247" transform="translate(4.424)">
+                <path id="Path_516" d="M33.019 16.854V8.913c0-2.439-1.758-4.481-3.857-4.481H11.976c-2.155 0-3.857 1.985-3.857 4.481v7.941z" class="cls-3" transform="translate(-8.119 -4.433)"/>
+            </g>
+            <g id="Group_1248" transform="translate(0 8.678)">
+                <path id="Path_517" d="M8.156 11.147a3.438 3.438 0 0 0-3.46 3.46v11.06a3.438 3.438 0 0 0 3.46 3.46" class="cls-3" transform="translate(-4.696 -11.147)"/>
+                <path id="Path_518" d="M27.737 29.228h.113a3.438 3.438 0 0 0 3.46-3.46V14.651a3.438 3.438 0 0 0-3.46-3.46h-.113" class="cls-3" transform="translate(2.041 -11.135)"/>
+            </g>
+            <path id="Path_519" fill="none" stroke="#1d2b46" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.878px" d="M28.359 16.312a2.327 2.327 0 0 1 .4 1.248A2.155 2.155 0 1 1 26.6 15.4" transform="translate(1.079 -1.225)"/>
+        </g>
+    </g>
+</svg>

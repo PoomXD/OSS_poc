@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="124" height="124" viewBox="0 0 124 124">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path id="prefix__Rectangle_128" d="M0 0H124V124H0z" data-name="Rectangle 128" transform="translate(58 37)" style="fill:#fff;stroke:#707070"/>
+        </clipPath>
+        <style>
+            .prefix__cls-3{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:5.848px}
+        </style>
+    </defs>
+    <g id="prefix__Mask_Group_53" data-name="Mask Group 53" transform="translate(-58 -37)">
+        <g id="prefix__Layer_1" transform="translate(49.34 22.005)">
+            <g id="prefix__Group_163" data-name="Group 163">
+                <path id="prefix__Path_153" d="M106.05 19.1H54.779v43.087h-34.31v55.754c0 9.942 7.018 18.13 15.791 18.13h69.985c8.772 0 15.791-8.188 15.791-18.13V37.234c-.196-9.942-7.214-18.134-15.986-18.134z" class="prefix__cls-3" data-name="Path 153"/>
+                <path id="prefix__Line_113" d="M0 43.083L34.31 0" class="prefix__cls-3" data-name="Line 113" transform="translate(20.469 19.105)"/>
+                <path id="prefix__Rectangle_129" d="M0 0H11.307V13.061H0z" class="prefix__cls-3" data-name="Rectangle 129" transform="translate(37.624 104.1)"/>
+                <path id="prefix__Rectangle_130" d="M0 0H11.307V13.061H0z" class="prefix__cls-3" data-name="Rectangle 130" transform="translate(37.624 78.368)"/>
+                <path id="prefix__Line_114" d="M0 0L45.812 0" class="prefix__cls-3" data-name="Line 114" transform="translate(60.628 84.996)"/>
+                <path id="prefix__Line_115" d="M0 0L45.812 0" class="prefix__cls-3" data-name="Line 115" transform="translate(60.628 108.779)"/>
+            </g>
+        </g>
+    </g>
+</svg>

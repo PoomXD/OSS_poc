@@ -1,0 +1,16 @@
+@import "../../styles/global";
+
+.sidebar {
+  width: 48px;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  background: $primary;
+  background: linear-gradient(
+    45deg,
+    rgba(191, 136, 36, 1) 0%,
+    rgba(242, 116, 5, 1) 43%
+  );
+  box-shadow: 2px 0px 4px 0px rgba(0, 0, 0, 0.15);
+  border-right: 1px solid;
+}

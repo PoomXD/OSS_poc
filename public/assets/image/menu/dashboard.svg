@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="124" height="124" viewBox="0 0 124 124">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path id="prefix__Rectangle_128" d="M0 0H124V124H0z" data-name="Rectangle 128" transform="translate(58 37)" style="fill:#fff;stroke:#707070"/>
+        </clipPath>
+        <style>
+            .prefix__cls-3{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:5.933px}
+        </style>
+    </defs>
+    <g id="prefix__Mask_Group_62" data-name="Mask Group 62" transform="translate(-58 -37)">
+        <g id="prefix__Layer_1" transform="translate(41.19 20.289)">
+            <g id="prefix__Group_186" data-name="Group 186">
+                <path id="prefix__Path_178" d="M29.072 117.078V84.447a10.635 10.635 0 0 1 10.679-10.68 10.635 10.635 0 0 1 10.68 10.68v32.632a10.635 10.635 0 0 1-10.679 10.679 10.635 10.635 0 0 1-10.68-10.68z" class="prefix__cls-3" data-name="Path 178"/>
+                <path id="prefix__Path_179" d="M66.054 117.078V62.692a10.635 10.635 0 0 1 10.68-10.679 10.635 10.635 0 0 1 10.679 10.679v54.386a10.635 10.635 0 0 1-10.679 10.679 10.762 10.762 0 0 1-10.68-10.679z" class="prefix__cls-3" data-name="Path 179"/>
+                <path id="prefix__Path_180" d="M103.234 117.078V40.74a10.635 10.635 0 0 1 10.679-10.679 10.635 10.635 0 0 1 10.68 10.679v76.338a10.635 10.635 0 0 1-10.679 10.679 10.762 10.762 0 0 1-10.68-10.679z" class="prefix__cls-3" data-name="Path 180"/>
+                <path id="prefix__Path_181" d="M19.777 137.053h99.675a18.7 18.7 0 0 0 18.392-18.788V20.37" class="prefix__cls-3" data-name="Path 181"/>
+            </g>
+        </g>
+    </g>
+</svg>

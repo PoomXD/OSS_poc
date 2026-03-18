@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Rectangle_659" fill="#fff" stroke="#707070" d="M0 0H100V100H0z" transform="translate(69 353)"/>
+        </clipPath>
+        <style>
+            .cls-4{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:4.75px}
+        </style>
+    </defs>
+    <g id="Mask_Group_139" clip-path="url(#clip-path)" transform="translate(-69 -353)">
+        <g id="icon-34" transform="translate(61.158 347.627)">
+            <circle id="Ellipse_69" cx="50" cy="50" r="50" fill="#73b902" transform="translate(7.842 5.373)"/>
+            <path id="Path_479" d="M49.23 63.491l9.614-7.813-9.614-7.8" class="cls-4"/>
+            <path id="Path_480" d="M20.738 55.678h36.175" class="cls-4"/>
+            <path id="Path_481" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4px" d="M38.092 43.45V29.233h44.685v52.28H38.092V69.59"/>
+        </g>
+    </g>
+</svg>

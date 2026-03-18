@@ -1,0 +1,94 @@
+@import "mixin";
+
+$widthBreakpoints: (
+  sm: map-get($breakpoints, mobile),
+  md: map-get($breakpoints, tablet),
+  lg: map-get($breakpoints, large),
+) !default;
+
+$heightBreakpoints: (
+  h500: 35rem,
+  // ≈ 560px
+  short: 40rem,
+  // ≈ 640px
+  h700: 43.75rem,
+  // ≈ 700px
+  mid: 60rem,
+  // ≈ 960px
+  tall: 72rem,
+) !default;
+
+@function bp-get($key, $map) {
+  @if map-has-key($map, $key) {
+    @return map-get($map, $key);
+  }
+  @return $key; // รองรับ 1024px, 56rem ที่ส่งมาตรง ๆ
+}
+@function bp-eps($val) {
+  $u: unit($val);
+  @if $u == "rem" {
+    @return 0.02rem;
+  }
+  @if $u == "em" {
+    @return 0.02em;
+  }
+  @return 0.02px;
+}
+
+@mixin downW($bp) {
+  $w: map-get($widthBreakpoints, $bp);
+  @if $w == null {
+    @warn "Unknown breakpoint: #{$bp}";
+  } @else {
+    @media (max-width: $w) {
+      @content;
+    }
+  }
+}
+
+@mixin downH($bp) {
+  $h: map-get($heightBreakpoints, $bp);
+  @if $h == null {
+    @warn "Unknown height breakpoint: #{$bp}";
+  } @else {
+    @media (max-height: calc(#{$h} - 0.02rem)) {
+      @content;
+    }
+  }
+}
+
+@mixin downW_or_downH(
+  $w,
+  $h,
+  $wmap: $widthBreakpoints,
+  $hmap: $heightBreakpoints
+) {
+  $wv: bp-get($w, $wmap);
+  $weps: bp-eps($wv);
+  $hv: bp-get($h, $hmap);
+  $heps: bp-eps($hv);
+  @media (max-width: calc(#{$wv} - #{$weps})), (max-height: calc(#{$hv} - #{$heps})) {
+    @content;
+  }
+}
+
+:where(.dn) {
+  display: none !important;
+}
+
+@each $name, $val in $widthBreakpoints {
+  @media (min-width: #{$val}) {
+    :where(.dn-up-#{$name}) {
+      display: none !important;
+    }
+  }
+  @media (max-width: calc(#{$val} - #{bp-eps($val)})) {
+    :where(.dn-down-#{$name}) {
+      display: none !important;
+    }
+  }
+}
+
+@mixin safe-bottom($base: 16px) {
+  padding-bottom: calc(#{$base} + var(--safe-bottom));
+}

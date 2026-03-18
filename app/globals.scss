@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #bf882a; /* 500 */
+  --color-secondary: #8c5f1d; /* 700 */
+  --color-background: #fbf6ec; /* 50 */
+  --color-surface: #f5ead3; /* 100 */
+  --color-border: #dfbd78; /* 300 */
+  --color-text: #573812; /* 900 */
+  --color-on-primary: #fbf6ec; /* light text on gold */
+
+  --primary-dark-1: color-mix(in srgb, var(--color-primary) 80%, black);
+  --primary-dark-2: color-mix(in srgb, var(--color-primary) 60%, black);
+  --primary-dark-3: color-mix(in srgb, var(--color-primary) 40%, black);
+
+  --color-illustration-50: #fbf6ec;
+  --color-illustration-100: #f5ead3;
+  --color-illustration-200: #ead4a6;
+  --color-illustration-300: #dfbd78;
+  --color-illustration-400: #d4a64b;
+  --color-illustration-500: #bf882a; /* base */
+  --color-illustration-600: #a97424;
+  --color-illustration-700: #8c5f1d;
+  --color-illustration-800: #704a17;
+  --color-illustration-900: #573812;
+  --color-illustration-950: #3a240b;
+
+  --color-primary-50: color-mix(in srgb, var(--color-primary) 9.7%, white);
+  --color-primary-100: color-mix(in srgb, var(--color-primary) 22.5%, white);
+  --color-primary-200: color-mix(in srgb, var(--color-primary) 43.2%, white);
+  --color-primary-300: color-mix(in srgb, var(--color-primary) 69.3%, white);
+  --color-primary-400: var(--color-primary);
+  --color-primary-500: color-mix(in srgb, var(--color-primary) 87.4%, black);
+  --color-primary-600: color-mix(in srgb, var(--color-primary) 69.3%, black);
+  --color-primary-700: color-mix(in srgb, var(--color-primary) 52.7%, black);
+  --color-primary-800: color-mix(in srgb, var(--color-primary) 43.3%, black);
+  --color-primary-900: color-mix(in srgb, var(--color-primary) 36%, black);
+  --color-primary-950: color-mix(in srgb, var(--color-primary) 19.3%, black);
+
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --preserve-bottom: 37px;
+}
+
+$theme-colors: (
+  primary: --color-primary,
+  secondary: --color-secondary,
+  background: --color-background,
+  surface: --color-surface,
+  border: --color-border,
+  text: --color-text,
+  on-primary: --color-on-primary,
+);
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
